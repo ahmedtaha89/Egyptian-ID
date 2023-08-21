@@ -18,7 +18,7 @@ elif id_num[0] == '3':
     month =  (int(f'{id_num[3:5]}'))  
     day =    (int(f'{id_num[5:7]}')) 
     Weekday = datetime.datetime(year,month,day).strftime('%A')
-    print(F'Born on: {Weekday} {day}-{month}-{year}')
+    print(F'Born on:  {day}/{month}/{year}')
 
 
 # Check if the input length is valid (14 characters)
